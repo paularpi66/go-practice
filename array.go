@@ -1,9 +1,12 @@
 package main
-import ("fmt")
+
+import "fmt"
 
 func main() {
-  var arr1 = [3]int{1,2,3}
-  arr2 := [5]int{4,5,6,7,8}
+	//var ages [3]int = [3]int{20,25,30,35}
+	var ages = [3]int{20, 25, 30}
+	names := [4]string{"yoshi", "mario", "bowser"}
+	fmt.Println(ages, len(ages))
+	fmt.Println(names, len(names))
 
-  fmt.Println(arr1)
-  fmt.Println(arr2)
+}
