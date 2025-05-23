@@ -1,14 +1,11 @@
 package main
 
-import "fmt"
-
-var score = 99.5
+import (
+	"fmt"
+)
 
 func main() {
-	sayHello("maria")
-	for _, v := range points {
-		fmt.Println(v)
-	}
+	mybill := newBill("mario's bill")
 
-	showScore()
+	fmt.Println(mybill.format())
 }
